@@ -6,6 +6,8 @@ server:
   apiKey:
     $env: API_KEY
   schemaPath: /api
+  apiName: Simonas
+  apiVersion: 1.0.0
   apiBasePath:
     $env: AGENT_ENDPOINT
   apiDocsPath: /api-docs
