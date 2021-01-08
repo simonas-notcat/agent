@@ -5,7 +5,7 @@ server:
     $env: PORT
   apiKey:
     $env: API_KEY
-  schemaPath: /open-api.json
+  schemaPath: /api
   apiBasePath:
     $env: AGENT_ENDPOINT
   apiDocsPath: /api-docs
