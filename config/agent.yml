@@ -10,7 +10,7 @@ server:
     $env: AGENT_ENDPOINT
   apiDocsPath: /api-docs
   defaultDID:
-    create: true
+    create: false
     messagingServiceEndpoint: /messaging
 constants:
   secretKey:
