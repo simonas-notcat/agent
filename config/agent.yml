@@ -24,6 +24,8 @@ dbConnection:
       url:
         $env: DATABASE_URL
       synchronize: true
+      ssl:
+        rejectUnauthorized: false
       logging: false
       entities:
         $require: "@veramo/data-store?t=object#Entities"
